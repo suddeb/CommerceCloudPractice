@@ -1,7 +1,7 @@
 /**
 * Description of the Controller and the logic it provides
 *
-* @module  controllers/JShowProduct
+* @module  controllers/JShowProduct 
 */
 
 'use strict';
