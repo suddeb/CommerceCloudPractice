@@ -1,0 +1,3 @@
+${pdict.myProduct.name} has been found.
+<br />
+<isprint value="${pdict.myString}" encoding="off"></isprint>

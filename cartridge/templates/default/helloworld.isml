@@ -1,0 +1,3 @@
+<!--- TEMPLATENAME: helloworld.isml --->
+${pdict.myParameter}</br>
+${pdict.CurrentSession}

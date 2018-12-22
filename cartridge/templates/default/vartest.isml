@@ -1,0 +1,10 @@
+<isset name="sessionVar" value="${1}" scope="session" />
+<b>SESSION VAR:</b>${session.custom.sessionVar}<br/>
+
+<isset name="requestVar" value=${false} scope="request" />
+<b>REQUEST VAR:</b>${request.custom.requestVar}<br/>
+
+<isset name="pageVar" value="SUDIPTA DEB" scope="page" />
+<b>PAGE VAR:</b>${pageVar}<br/>
+
+<b>INCREMENTING:</b>${session.custom.sessionVar + 1}
