@@ -1,3 +1,4 @@
 ${pdict.myProduct.name} has been found.
 <br />
-<isprint value="${pdict.myString}" encoding="off"></isprint>
+<isset name="product" value="${pdict.myProduct}" scope="pdict" />
+<isinclude template="product/producttile"/>

@@ -16,8 +16,7 @@ function start(){
 	
 	if(product === null){
 		ISML.renderTemplate('productNotFound.isml',{
-			message	:	'Product with id ' + productId + ' not found',
-			myString:   '<h1>Weldcome</h1>'
+			message	:	'Product with id ' + productId + ' not found'
 		});
 	}else{
 		ISML.renderTemplate('productFound.isml',{
